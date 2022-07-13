@@ -77,7 +77,7 @@ const idInvalidCardCompanies = nestArr => {
             companies.push('Mastercard');
         } else if(arr[0] === 6 && !companies.some(x => x === 'Discover')){
             companies.push('Discover');
-        } else if(arr[0] < 3 || arr[0 > 6]){
+        } else if(arr[0] < 3 || arr[0] > 6){
             console.log('company not found');
         }
 
